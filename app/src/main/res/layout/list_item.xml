@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="@dimen/item_min_height"
+    android:padding="@dimen/item_padding">
+
+    <TextView
+        android:id="@+id/text_pos"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:ems="2"
+        android:gravity="center"
+        android:textSize="@dimen/item_text_size"
+        android:textColor="@color/color_primary_dark"
+        android:singleLine="true"/>
+
+    <EditText
+        android:id="@+id/text_task"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/text_view_padding"
+        android:paddingRight="@dimen/text_view_padding"
+        android:gravity="center_vertical"
+        android:textColorHighlight="@color/color_accent"
+        android:inputType="textCapSentences"
+        android:imeOptions="actionNext"
+        android:longClickable="false"
+        android:singleLine="true"/>
+</LinearLayout>

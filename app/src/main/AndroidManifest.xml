@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nplusnapps.todolist">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".AboutActivity"
+            android:exported="false"
+            android:label="@string/action_about"
+            android:parentActivityName=".MainActivity"/>
+
+        <service
+            android:name=".BackgroundService"
+            android:exported="false" />
+
+        <provider
+            android:name=".DataProvider"
+            android:authorities="com.nplusnapps.todolist.dataprovider"
+            android:exported="false"/>
+    </application>
+</manifest>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">To-Do List</string>
+    <string name="app_version" translatable="false">v1.0</string>
+    <string name="app_about">&lt;i&gt;%1$s %2$s&lt;/i&gt;
+        &lt;br&gt;&lt;font color="#aaaaaa"&gt;_________________________&lt;/font&gt;
+        &lt;br&gt;&lt;br&gt;A small app by %3$s.</string>
+
+    <string name="dev_name" translatable="false">N+N Apps</string>
+    <string name="dev_email" translatable="false">
+        &lt;a href=\"mailto:nplusnapps@gmail.com\"&gt;%s&lt;/a&gt;</string>
+
+    <string name="activity_title_tasks">Things to do (%s)</string>
+
+    <string name="action_about">About</string>
+    <string name="desc_action_new">Add new</string>
+    <string name="stub_no_tasks">Nothing to do.</string>
+    <string name="hint_task">Important thing #%s</string>
+    <string name="snackbar_task_deleted">One less thing to worry about.</string>
+    <string name="action_dismiss">GREAT</string>
+</resources>

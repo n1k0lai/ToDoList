@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid
+        android:color="@color/color_primary_dark"/>
+    <size
+        android:width="@dimen/scrollbar_thumb_size"
+        android:height="@dimen/scrollbar_thumb_size"/>
+</shape>

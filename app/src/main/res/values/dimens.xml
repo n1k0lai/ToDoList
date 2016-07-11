@@ -1,0 +1,11 @@
+<resources>
+    <dimen name="floating_button_margin">16dp</dimen>
+
+    <dimen name="item_padding">4dp</dimen>
+    <dimen name="text_view_padding">8dp</dimen>
+
+    <dimen name="item_min_height">48dp</dimen>
+    <dimen name="scrollbar_thumb_size">4dp</dimen>
+
+    <dimen name="item_text_size">22sp</dimen>
+</resources>

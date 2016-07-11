@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Список дел</string>
+    <string name="app_about">&lt;i&gt;%1$s %2$s&lt;/i&gt;
+        &lt;br&gt;&lt;font color="#aaaaaa"&gt;_________________________&lt;/font&gt;
+        &lt;br&gt;&lt;br&gt;Небольшое приложение %3$s.</string>
+
+    <string name="activity_title_tasks">Текущие дела (%s)</string>
+
+    <string name="action_about">О приложении</string>
+    <string name="desc_action_new">Добавить новое</string>
+    <string name="stub_no_tasks">Делать нечего.</string>
+    <string name="hint_task">Важное дело #%s</string>
+    <string name="snackbar_task_deleted">Стало на одно дело меньше.</string>
+    <string name="action_dismiss">ОТЛИЧНО</string>
+</resources>

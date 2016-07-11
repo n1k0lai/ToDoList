@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nplusnapps.hotels.AboutActivity">
+
+    <TextView
+        android:id="@+id/text_about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColorLink="@color/color_primary_dark"
+        android:textColorHighlight="@color/color_accent"
+        android:drawableTop="@mipmap/ic_launcher"
+        android:drawablePadding="@dimen/text_view_padding"/>
+</merge>
